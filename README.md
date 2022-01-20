@@ -17,3 +17,25 @@ The resource covers seven types of marked constructions plus some ambiguous sent
 # Acknowledgments
 
 The selection, extraction, and annotation of the dataset have been performed by Teresa Paccosi and Alessio Palmero Aprosio.
+
+# Changelog
+
+* 2022-01-21 v1.0
+  * First release in UD
+
+<pre>
+=== Machine-readable metadata (DO NOT REMOVE!) ================================
+Data available since: UD vX.X
+License: CC BY 4.0
+Includes text: yes
+Genre: learner-essays
+Lemmas: automatic with corrections
+UPOS: automatic with corrections
+XPOS: automatic with corrections
+Features: automatic with corrections
+Relations: manual native
+Contributors: Paccosi, Teresa; Palmero Aprosio, Alessio
+Contributing: elsewhere
+Contact: aprosio@fbk.eu
+===============================================================================
+</pre>
