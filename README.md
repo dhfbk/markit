@@ -16,7 +16,7 @@ The resource covers seven types of marked constructions plus some ambiguous sent
 
 # Acknowledgments
 
-The selection, extraction, and annotation of the dataset have been performed by Teresa Paccosi and Alessio Palmero Aprosio.
+The selection, extraction, and annotation of the dataset have been performed by Teresa Paccosi, Alessio Palmero Aprosio, and Sara Tonelli.
 
 # Changelog
 
@@ -34,7 +34,7 @@ UPOS: automatic with corrections
 XPOS: automatic with corrections
 Features: automatic with corrections
 Relations: manual native
-Contributors: Paccosi, Teresa; Palmero Aprosio, Alessio
+Contributors: Paccosi, Teresa; Palmero Aprosio, Alessio; Tonelli, Sara
 Contributing: elsewhere
 Contact: aprosio@fbk.eu
 ===============================================================================
