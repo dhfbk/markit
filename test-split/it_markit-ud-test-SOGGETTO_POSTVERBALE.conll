@@ -1,0 +1,431 @@
+# text = Concludendo , significativa è la dichiarazione dell' inventore della scienza moderna , Galileo Galilei , che per alcuni anni ebbe la forza di una pubblica autorità mettendo il suo sapere a disposizione dei potenti :
+# sent_id = 114
+# file_id = 114
+# type = SOGGETTO_POSTVERBALE
+1	Concludendo	concludere	VERB	V	VerbForm=Ger	3	advcl	_	_
+2	,	[PUNCT]	PUNCT	FF	_	1	punct	_	_
+3	significativa	significativo	ADJ	A	Gender=Fem|Number=Sing	0	root	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	dichiarazione	dichiarazione	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
+7-8	dell'	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	_
+9	inventore	inventore	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+10-11	della	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	scienza	scienza	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+13	moderna	moderno	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	_
+14	,	[PUNCT]	PUNCT	FF	_	9	punct	_	_
+15	Galileo	Galileo	PROPN	SP	_	9	appos	_	_
+16	Galilei	Galilei	PROPN	SP	_	15	flat:name	_	_
+17	,	[PUNCT]	PUNCT	FF	_	15	punct	_	_
+18	che	che	PRON	PR	_	22	nsubj	_	_
+19	per	per	ADP	E	_	21	case	_	_
+20	alcuni	alcuno	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	21	det	_	_
+21	anni	anno	NOUN	S	Gender=Masc|Number=Plur	22	obl	_	_
+22	ebbe	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	acl:relcl	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	forza	forza	NOUN	S	Gender=Fem|Number=Sing	22	obj	_	_
+25	di	di	ADP	E	_	28	case	_	_
+26	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+27	pubblica	pubblico	NOUN	S	Gender=Fem|Number=Sing	28	amod	_	_
+28	autorità	autorità	NOUN	S	Gender=Fem|Number=Sing	24	nmod	_	_
+29	mettendo	mettere	VERB	V	VerbForm=Ger	22	advcl	_	_
+30	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+31	suo	suo	PRON	PP	PronType=Prs	32	det:poss	_	_
+32	sapere	sapere	NOUN	S	Gender=Masc|Number=Sing	29	obj	_	_
+33	a	a	ADP	E	_	34	case	_	_
+34	disposizione	disposizione	NOUN	S	Gender=Fem|Number=Sing	29	obl	_	_
+35-36	dei	_	_	_	_	_	_	_	_
+35	di	di	ADP	E	_	37	case	_	_
+36	i	il	DET	RD	Gender=Masc|Number=Plur	37	det	_	_
+37	potenti	potente	NOUN	S	Gender=Masc|Number=Plur	34	nmod	_	_
+38	:	[PUNCT]	PUNCT	FC	_	3	punct	_	_
+
+# text = Altro genere che ha letteralmente sfondato in Italia , come all' Estero , è la musica latino-americana con artisti quali Ricky Martin oppure Enrique Iglesias che con il loro fascino e la loro voce sensuale hanno conquistato un po' tutti , soprattutto le sale di fitness , visto lo sforzo notevole di questi balli .
+# sent_id = 148
+# file_id = 1221
+# type = SOGGETTO_POSTVERBALE
+1	Altro	altro	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	2	det	_	_
+2	genere	genere	NOUN	S	Gender=Masc|Number=Sing	17	nsubj	_	_
+3	che	che	PRON	PR	_	6	nsubj	_	_
+4	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	letteralmente	letteralmente	ADV	B	_	6	advmod	_	_
+6	sfondato	sfondare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl:relcl	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	Italia	Italia	PROPN	SP	_	6	obl	_	_
+9	,	[PUNCT]	PUNCT	FF	_	6	punct	_	_
+10	come	come	ADV	B	_	13	advmod	_	_
+11-12	all'	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	13	case	_	_
+12	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	_
+13	Estero	Estero	NOUN	S	_	6	conj	_	_
+14	,	[PUNCT]	PUNCT	FF	_	17	punct	_	_
+15	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	musica	musica	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+18	latino-americana	latino-americano	ADJ	A	Gender=Fem|Number=Sing	17	amod	_	_
+19	con	con	ADP	E	_	20	case	_	_
+20	artisti	artista	NOUN	S	Gender=Masc|Number=Plur	17	nmod	_	_
+21	quali	quale	ADP	E	_	22	case	_	_
+22	Ricky	Ricky	PROPN	SP	_	20	nmod	_	_
+23	Martin	Martin	PROPN	SP	_	22	flat:name	_	_
+24	oppure	oppure	CCONJ	CC	_	25	cc	_	_
+25	Enrique	Enrique	PROPN	SP	_	22	conj	_	_
+26	Iglesias	Iglesias	PROPN	SP	_	25	flat:name	_	_
+27	che	che	PRON	PR	_	38	nsubj	_	_
+28	con	con	ADP	E	_	31	case	_	_
+29	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+30	loro	loro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	31	det:poss	_	_
+31	fascino	fascino	NOUN	S	Gender=Masc|Number=Sing	38	obl	_	_
+32	e	e	CCONJ	CC	_	35	cc	_	_
+33	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+34	loro	loro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	35	det:poss	_	_
+35	voce	voce	NOUN	S	Gender=Fem|Number=Sing	31	conj	_	_
+36	sensuale	sensuale	ADJ	A	Gender=Fem|Number=Sing	35	amod	_	_
+37	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	38	aux	_	_
+38	conquistato	conquistare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	25	acl:relcl	_	_
+39	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
+40	po'	po'	ADV	B	_	41	advmod	_	_
+41	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|Person=3|PronType=Ind	38	obj	_	_
+42	,	[PUNCT]	PUNCT	FF	_	41	punct	_	_
+43	soprattutto	soprattutto	ADV	B	_	45	advmod	_	_
+44	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	45	det	_	_
+45	sale	sala	NOUN	S	Gender=Fem|Number=Plur	41	conj	_	_
+46	di	di	ADP	E	_	47	case	_	_
+47	fitness	fitness	NOUN	S	Gender=Masc|Number=Sing	45	nmod	_	_
+48	,	[PUNCT]	PUNCT	FF	_	45	punct	_	_
+49	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	45	advcl	_	_
+50	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	51	det	_	_
+51	sforzo	sforzo	NOUN	S	Gender=Masc|Number=Sing	49	obj	_	_
+52	notevole	notevole	ADJ	A	Gender=Masc|Number=Sing	51	amod	_	_
+53	di	di	ADP	E	_	55	case	_	_
+54	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	55	det	_	_
+55	balli	ballo	NOUN	S	Gender=Masc|Number=Plur	51	nmod	_	_
+56	.	[PUNCT]	PUNCT	FS	_	17	punct	_	_
+
+# text = Dal suffragio universale concesso in quegl' anni negli stati europei nacquero i partiti di massa :
+# sent_id = 198
+# file_id = 1297
+# type = SOGGETTO_POSTVERBALE
+1-2	Dal	_	_	_	_	_	_	_	_
+1	da	da	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	suffragio	suffragio	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+4	universale	universale	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+5	concesso	concedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl	_	_
+6	in	in	ADP	E	_	8	case	_	_
+7	quegl'	quello	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	_
+8	anni	anno	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	_
+9-10	negli	_	_	_	_	_	_	_	_
+9	in	in	ADP	E	_	11	case	_	_
+10	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	stati	stato	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	_
+12	europei	europeo	ADJ	A	Gender=Masc|Number=Plur	11	amod	_	_
+13	nacquero	nascere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+14	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	partiti	partito	NOUN	S	_	13	nsubj	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	massa	massa	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	_
+18	:	[PUNCT]	PUNCT	FC	_	13	punct	_	_
+
+# text = Tutt' oggi alla Costituzione vengono apportate delle modifiche a favore dei cittadini ma principalmente persiste quella originaria del 1947 .
+# sent_id = 206
+# file_id = 1319
+# type = SOGGETTO_POSTVERBALE
+1	Tutt'	Tutto	DET	DI	_	2	det	_	_
+2	oggi	oggi	ADV	B	_	7	obl	_	_
+3-4	alla	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Costituzione	Costituzione	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+6	vengono	venire	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux:pass	_	_
+7	apportate	apportare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+8	delle	dei	DET	RI	Definite=Ind|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	modifiche	modifica	NOUN	S	Gender=Fem|Number=Plur	7	nsubj:pass	_	_
+10	a	a	ADP	E	_	11	case	_	_
+11	favore	favore	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+12-13	dei	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	cittadini	cittadino	NOUN	S	Gender=Masc|Number=Plur	11	nmod	_	_
+15	ma	ma	CCONJ	CC	_	17	cc	_	_
+16	principalmente	principalmente	ADV	B	_	17	advmod	_	_
+17	persiste	persistere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_
+18	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	17	nsubj	_	_
+19	originaria	originario	ADJ	A	Gender=Fem|Number=Sing	18	amod	_	_
+20-21	del	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	1947	1947	NUM	N	_	19	nmod	_	_
+23	.	[PUNCT]	PUNCT	FS	_	7	punct	_	_
+
+# text = In Italia , oltre all' aspirazione naturalista , si è sviluppata una sensibilità diversa che ha assimilato il paesaggio alle opere d' arte , il cosiddetto " paesaggismo " .
+# sent_id = 237
+# file_id = 1378
+# type = SOGGETTO_POSTVERBALE
+1	In	in	ADP	E	_	2	case	_	_
+2	Italia	Italia	PROPN	SP	_	12	obl	_	_
+3	,	[PUNCT]	PUNCT	FF	_	2	punct	_	_
+4	oltre	oltre	ADV	B	_	7	case	_	_
+5-6	all'	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	4	fixed	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+7	aspirazione	aspirazione	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+8	naturalista	naturalista	NOUN	S	Gender=Masc|Number=Sing	7	amod	_	_
+9	,	[PUNCT]	PUNCT	FF	_	7	punct	_	_
+10	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	12	expl	_	_
+11	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	sviluppata	sviluppare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+13	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	sensibilità	sensibilità	NOUN	S	Gender=Fem|Number=Sing	12	dislocated	_	_
+15	diversa	diverso	ADJ	A	Gender=Fem|Number=Sing	14	amod	_	_
+16	che	che	PRON	PR	_	18	nsubj	_	_
+17	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18	assimilato	assimilare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	acl:relcl	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	paesaggio	paesaggio	NOUN	S	Gender=Masc|Number=Sing	18	obj	_	_
+21-22	alle	_	_	_	_	_	_	_	_
+21	a	a	ADP	E	_	23	case	_	_
+22	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
+23	opere	opera	NOUN	S	Gender=Fem|Number=Plur	18	obl	_	_
+24	d'	di	ADP	E	_	25	case	_	_
+25	arte	arte	NOUN	S	Gender=Fem|Number=Sing	23	nmod	_	_
+26	,	[PUNCT]	PUNCT	FF	_	14	punct	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+28	cosiddetto	cosiddetto	ADJ	A	Gender=Masc|Number=Sing	30	amod	_	_
+29	"	[PUNCT]	PUNCT	FB	_	30	punct	_	_
+30	paesaggismo	paesaggismo	NOUN	S	Gender=Masc|Number=Sing	14	appos	_	_
+31	"	[PUNCT]	PUNCT	FB	_	30	punct	_	_
+32	.	[PUNCT]	PUNCT	FS	_	12	punct	_	_
+
+# text = Molteplici sono gli esempi che si possono fare a proposito , uno molto significativo , anche se non del tutto legato al campo della scienza , è quello dei motori a benzina i quali è vero che emettono gas inquinanti nell' atmosfera ma , senza di essi si ritornerebbe all' età della pietra o quasi .
+# sent_id = 348
+# file_id = 1639
+# type = SOGGETTO_POSTVERBALE
+1	Molteplici	molteplice	ADJ	A	Gender=Masc|Number=Plur	0	root	_	_
+2	sono	essere	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	esempi	esempio	NOUN	S	Gender=Masc|Number=Plur	1	dislocated	_	_
+5	che	che	PRON	PR	_	8	obj	_	_
+6	si	si	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	expl:impers	_	_
+7	possono	potere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	fare	fare	VERB	V	VerbForm=Inf	4	acl:relcl	_	_
+9	a	a	ADP	E	_	10	case	_	_
+10	proposito	proposito	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+11	,	[PUNCT]	PUNCT	FF	_	4	punct	_	_
+12	uno	uno	PRON	PI	Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	appos	_	_
+13	molto	molto	ADV	B	_	14	advmod	_	_
+14	significativo	significativo	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	_
+15	,	[PUNCT]	PUNCT	FF	_	12	punct	_	_
+16	anche	anche	ADV	B	_	17	advmod	_	_
+17	se	se	SCONJ	CS	_	22	mark	_	_
+18	non	non	ADV	BN	PronType=Neg	21	advmod	_	_
+19-20	del	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	tutto	tutto	NOUN	S	Gender=Masc|Number=Sing	22	obl	_	_
+22	legato	legare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	advcl	_	_
+23-24	al	_	_	_	_	_	_	_	_
+23	a	a	ADP	E	_	25	case	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	campo	campo	NOUN	S	Gender=Masc|Number=Sing	22	obl	_	_
+26-27	della	_	_	_	_	_	_	_	_
+26	di	di	ADP	E	_	28	case	_	_
+27	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	scienza	scienza	NOUN	S	Gender=Fem|Number=Sing	25	nmod	_	_
+29	,	[PUNCT]	PUNCT	FF	_	31	punct	_	_
+30	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	cop	_	_
+31	quello	quello	PRON	PD	Gender=Masc|Number=Sing|Person=3|PronType=Dem	12	nsubj	_	_
+32-33	dei	_	_	_	_	_	_	_	_
+32	di	di	ADP	E	_	34	case	_	_
+33	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	34	det	_	_
+34	motori	motore	NOUN	S	Gender=Masc|Number=Plur	31	nmod	_	_
+35	a	a	ADP	E	_	36	case	_	_
+36	benzina	benzina	NOUN	S	Gender=Fem|Number=Sing	34	nmod	_	_
+37	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	38	det	_	_
+38	quali	quale	PRON	PR	Number=Plur|Person=3|PronType=Rel	40	nsubj	_	_
+39	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	40	cop	_	_
+40	vero	vero	ADJ	A	Gender=Masc|Number=Sing	34	acl:relcl	_	_
+41	che	che	SCONJ	CS	_	42	mark	_	_
+42	emettono	emettere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	40	ccomp	_	_
+43	gas	gas	NOUN	S	Gender=Masc|Number=Sing	42	obj	_	_
+44	inquinanti	inquinare	VERB	V	Number=Plur|Tense=Pres|VerbForm=Part	43	acl	_	_
+45-46	nell'	_	_	_	_	_	_	_	_
+45	in	in	ADP	E	_	47	case	_	_
+46	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	47	det	_	_
+47	atmosfera	atmosfera	NOUN	S	Gender=Fem|Number=Sing	42	obl	_	_
+48	ma	ma	CCONJ	CC	_	42	cc	_	_
+49	,	[PUNCT]	PUNCT	FF	_	54	punct	_	_
+50	senza	senza	ADP	E	_	52	case	_	_
+51	di	di	ADP	E	_	50	fixed	_	_
+52	essi	essi	PRON	PE	Gender=Masc|Number=Plur|Person=3|PronType=Prs	54	obl	_	_
+53	si	si	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	54	expl	_	_
+54	ritornerebbe	ritornare	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	42	conj	_	_
+55-56	all'	_	_	_	_	_	_	_	_
+55	a	a	ADP	E	_	57	case	_	_
+56	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	57	det	_	_
+57	età	età	NOUN	S	Gender=Masc|Number=Sing	54	obl	_	_
+58-59	della	_	_	_	_	_	_	_	_
+58	di	di	ADP	E	_	60	case	_	_
+59	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	60	det	_	_
+60	pietra	pietra	NOUN	S	Gender=Fem|Number=Sing	57	nmod	_	_
+61	o	o	CCONJ	CC	_	62	cc	_	_
+62	quasi	quasi	ADV	B	_	57	conj	_	_
+63	.	[PUNCT]	PUNCT	FS	_	1	punct	_	_
+
+# text = Durante il 2016 si svolgerà la nuova missione ExoMars per la ricerca di forme di vita .
+# sent_id = 430
+# file_id = 19
+# type = SOGGETTO_POSTVERBALE
+1	Durante	durante	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	2016	2016	NUM	N	_	5	obl	_	_
+4	si	si	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	expl	_	_
+5	svolgerà	svolgere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	nuova	nuovo	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	_
+8	missione	missione	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+9	ExoMars	ExoMars	PROPN	SP	_	8	nmod	_	_
+10	per	per	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	ricerca	ricerca	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	forme	forma	NOUN	S	Gender=Fem|Number=Plur	12	nmod	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	vita	vita	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	_
+17	.	.	PUNCT	FS	_	5	punct	_	_
+
+# text = Quindi non dobbiamo concentrarci sul medio lungo termine perché significherebbe non interessarsi di ciò che sta effettuando l' attuale depressione .
+# sent_id = 459
+# file_id = 1957
+# type = SOGGETTO_POSTVERBALE
+1	Quindi	quindi	CCONJ	CC	_	4	cc	_	_
+2	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	dobbiamo	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4-5	concentrarci	_	_	_	_	_	_	_	_
+4	concentrar	concentrare	VERB	V	VerbForm=Inf	0	root	_	_
+5	ci	ci	PRON	PC	Clitic=Yes|Gender=Fem|Number=Plur|Person=1|PronType=Prs	4	expl	_	_
+6-7	sul	_	_	_	_	_	_	_	_
+6	su	su	ADP	E	_	10	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+8	medio	medio	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	_
+9	lungo	lungo	NOUN	S	Gender=Masc|Number=Sing	8	compound	_	_
+10	termine	termine	NOUN	S	Gender=Masc|Number=Sing	4	dislocated	_	_
+11	perché	perché	SCONJ	CS	Gender=Masc|Number=Sing	12	mark	_	_
+12	significherebbe	significherebba	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	advcl	_	_
+13	non	non	ADV	BN	PronType=Neg	14	advmod	_	_
+14-15	interessarsi	_	_	_	_	_	_	_	_
+14	interessar	interessare	VERB	V	VerbForm=Inf	12	ccomp	_	_
+15	si	si	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	expl	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	ciò	ciò	PRON	PD	Gender=Masc|Number=Sing|Person=3|PronType=Dem	14	obl	_	_
+18	che	che	PRON	PR	_	20	obj	_	_
+19	sta	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+20	effettuando	effettuare	VERB	V	VerbForm=Ger	17	acl:relcl	_	_
+21	l'	il	DET	RD	_	23	det	_	_
+22	attuale	attuale	ADJ	A	Gender=Masc|Number=Sing	23	amod	_	_
+23	depressione	depressione	NOUN	S	Gender=Fem|Number=Sing	20	nsubj	_	_
+24	.	.	PUNCT	FS	_	4	punct	_	_
+
+# text = Ecco , dunque , che riemerge la seconda parte della frase di Nietzsche :
+# sent_id = 471
+# file_id = 1991
+# type = SOGGETTO_POSTVERBALE
+1	Ecco	ecco	ADV	B	_	6	advmod	_	_
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	dunque	dunque	ADV	B	_	1	advmod	_	_
+4	,	,	PUNCT	FF	_	1	punct	_	_
+5	che	che	PRON	PR	_	1	fixed	_	_
+6	riemerge	riemergere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	seconda	secondo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	9	amod	_	_
+9	parte	parte	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+10-11	della	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	frase	frase	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	Nietzsche	Nietzsche	PROPN	SP	_	12	nmod	_	_
+15	:	:	PUNCT	FC	_	6	punct	_	_
+
+# text = In realtà iniziano a manifestarsi le prime violenze nei confronti degli oppositori e il primo omicidio , quello di Matteotti , ucciso perché ha sostenuto che le elezioni sono avvenute in un clima intimidatorio .
+# sent_id = 597
+# file_id = 2233
+# type = SOGGETTO_POSTVERBALE
+1	In	in	ADP	E	_	2	case	_	_
+2	realtà	realtà	NOUN	S	Gender=Fem|Number=Plur	3	obl	_	_
+3	iniziano	iniziare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	a	a	ADP	E	_	5	mark	_	_
+5-6	manifestarsi	_	_	_	_	_	_	_	_
+5	manifestar	manifestare	VERB	V	VerbForm=Inf	3	xcomp	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+8	prime	primo	ADJ	NO	Gender=Fem|Number=Plur|NumType=Ord	9	amod	_	_
+9	violenze	violenza	NOUN	S	Gender=Fem|Number=Plur	3	nsubj	_	_
+10-11	nei	_	_	_	_	_	_	_	_
+10	in	in	ADP	E	_	12	case	_	_
+11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	confronti	confronto	NOUN	S	Gender=Masc|Number=Plur	9	nmod	_	_
+13-14	degli	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	oppositori	oppositore	NOUN	S	Gender=Masc|Number=Plur	12	nmod	_	_
+16	e	e	CCONJ	CC	_	19	cc	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+18	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	19	amod	_	_
+19	omicidio	omicidio	NOUN	S	Gender=Masc|Number=Sing	9	conj	_	_
+20	,	,	PUNCT	FF	_	19	punct	_	_
+21	quello	quello	PRON	PD	Gender=Masc|Number=Sing|Person=3|PronType=Dem	19	appos	_	_
+22	di	di	ADP	E	_	23	case	_	_
+23	Matteotti	Matteotti	PROPN	SP	_	21	nmod	_	_
+24	,	,	PUNCT	FF	_	25	punct	_	_
+25	ucciso	uccidere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	23	acl	_	_
+26	perché	perché	SCONJ	CS	_	28	mark	_	_
+27	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	aux	_	_
+28	sostenuto	sostenere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	25	advcl	_	_
+29	che	che	SCONJ	CS	_	33	mark	_	_
+30	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	31	det	_	_
+31	elezioni	elezione	NOUN	S	Gender=Fem|Number=Plur	33	nsubj	_	_
+32	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	33	aux	_	_
+33	avvenute	avvenire	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	28	ccomp	_	_
+34	in	in	ADP	E	_	36	case	_	_
+35	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	clima	clima	NOUN	S	Gender=Masc|Number=Sing	33	obl	_	_
+37	intimidatorio	intimidatorio	ADJ	A	Gender=Masc|Number=Sing	36	amod	_	_
+38	.	.	PUNCT	FS	_	3	punct	_	_
+
+# text = Non solo ha la musica la straordinaria facoltà di unire popoli e persone diverse .
+# sent_id = 644
+# file_id = 2340
+# type = SOGGETTO_POSTVERBALE
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	solo	solo	ADV	B	_	3	advmod	_	_
+3	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	musica	musica	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	straordinaria	straordinario	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	_
+8	facoltà	facoltà	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	unire	unire	VERB	V	VerbForm=Inf	8	acl	_	_
+11	popoli	popolo	NOUN	S	Gender=Masc|Number=Plur	10	obj	_	_
+12	e	e	ADP	E	_	13	cc	_	_
+13	persone	persona	NOUN	S	Gender=Fem|Number=Plur	11	conj	_	_
+14	diverse	diverso	ADJ	A	Gender=Fem|Number=Plur	13	amod	_	_
+15	.	.	PUNCT	FS	_	3	punct	_	_
+
+# text = Trionfa Eminem come rapper bianco americano .
+# sent_id = 647
+# file_id = 2340
+# type = SOGGETTO_POSTVERBALE
+1	Trionfa	trionfare	VERB	V	VerbForm=Inf	0	root	_	_
+2	Eminem	Eminem	PROPN	SP	_	1	nsubj	_	_
+3	come	come	ADP	E	_	4	case	_	_
+4	rapper	rapper	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+5	bianco	bianco	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	_
+6	americano	americano	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	_
+7	.	.	PUNCT	FS	_	1	punct	_	_
+

@@ -3,10 +3,11 @@ import os
 import argparse
 import re
 
-parser = argparse.ArgumentParser(description="Extract texts from Moro's documents.")
+parser = argparse.ArgumentParser(description="Extract train/test/dev for UD.")
 parser.add_argument("input_file", help="Input CONLL file")
 parser.add_argument("output_folder", help="Output folder")
 parser.add_argument("conversion_file", help="Conversion TXT file")
+parser.add_argument("--load_for_split", help="Folder with old splits", metavar="FILE")
 parser.add_argument("--test_min", help="Minimum number of sentences in test for each category", type=int, default=2, metavar="NUM")
 parser.add_argument("--dev_min", help="Minimum number of sentences in dev for each category", type=int, default=2, metavar="NUM")
 parser.add_argument("--test_percent", help="Percentage of sentences for test set", type=float, default=0.1, metavar="NUM")
@@ -14,6 +15,7 @@ parser.add_argument("--dev_percent", help="Percentage of sentences for dev set",
 parser.add_argument("--default_type", help="Default type label", default="ALTRO", metavar="LABEL")
 parser.add_argument("--default_prefix", help="Default UD prefix", default="it_markit-ud-", metavar="PREFIX")
 parser.add_argument("-v", "--verbose", help="Display more information", action="store_true")
+parser.add_argument("-t", "--split_test", help="Split test file for evaluation", action="store_true")
 
 args = parser.parse_args()
 
@@ -21,7 +23,10 @@ outputFolder = args.output_folder
 inputFile = args.input_file
 conversionFile = args.conversion_file
 
+loadForSplit = args.load_for_split
+
 verbose = args.verbose
+splitTest = args.split_test
 
 defaultTypeLabel = args.default_type
 defaultPrefix = args.default_prefix
@@ -32,6 +37,27 @@ testMin = args.test_min
 devMin = args.dev_min
 
 ###
+
+loadedSet = None
+toFindDuplicates = None
+if loadForSplit is not None:
+    loadedSet = {"train": set(), "test": set(), "dev": set()}
+    toFindDuplicates = set()
+    for part in loadedSet:
+        fileName = defaultPrefix + part + ".conll"
+        fileName = os.path.join(loadForSplit, fileName)
+        if not os.path.exists(fileName):
+            print("ERROR: file %s does not exist", fileName)
+        with open(fileName) as f:
+            for line in f:
+                line = line.strip()
+                m = re.match(r"^#.*text[\s]*=(.*)", line)
+                if m:
+                    text = re.sub(r"[^a-zA-Z]", "", m.group(1))
+                    if verbose and text in toFindDuplicates:
+                        print("Duplicate found:", text)
+                    loadedSet[part].add(text)
+                    toFindDuplicates.add(text)
 
 if not os.path.exists(outputFolder):
     os.mkdir(outputFolder)
@@ -151,6 +177,8 @@ for k in sentencesByType:
     i = 0
     for s in sentencesByType[k]:
 
+        rawText = re.sub(r"[^a-zA-Z]", "", s['text'])
+
         txt = ""
         txt += "# text = " + s["text"] + "\n"
         txt += "# sent_id = " + str(s["sent_id"]) + "\n"
@@ -183,15 +211,28 @@ for k in sentencesByType:
                 posConvert2[parts[3]] = set()
             posConvert2[parts[3]].add(parts[4])
 
-        if i < testSize:
-            test[k].append(txt)
-            count['test'] += s['count']
-        elif i < (testSize + devSize):
-            dev[k].append(txt)
-            count['dev'] += s['count']
+        if toFindDuplicates:
+            if rawText in loadedSet['test']:
+                test[k].append(txt)
+                count['test'] += s['count']
+            elif rawText in loadedSet['dev']:
+                dev[k].append(txt)
+                count['dev'] += s['count']
+            else:
+                train[k].append(txt)
+                count['train'] += s['count']
+                if verbose and rawText not in loadedSet['train']:
+                    print("Missing:", rawText)
         else:
-            train[k].append(txt)
-            count['train'] += s['count']
+            if i < testSize:
+                test[k].append(txt)
+                count['test'] += s['count']
+            elif i < (testSize + devSize):
+                dev[k].append(txt)
+                count['dev'] += s['count']
+            else:
+                train[k].append(txt)
+                count['train'] += s['count']
 
         i += 1
 
@@ -206,6 +247,11 @@ with open(testFile, "w") as fw:
     for k in test:
         for s in test[k]:
             fw.write(s)
+        if splitTest:
+            outFile = os.path.join(outputFolder, defaultPrefix + "test-" + k + ".conll")
+            with open(outFile, "w") as fwo:
+                for s in test[k]:
+                    fwo.write(s)
 
 if len(dev) > 0:
     with open(devFile, "w") as fw:

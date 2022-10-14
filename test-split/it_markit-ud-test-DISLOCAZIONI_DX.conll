@@ -1,0 +1,424 @@
+# text = In questo modo , risulta più facile allo Stato tenere sotto controllo il popolo .
+# sent_id = 12
+# file_id = 1005
+# type = DISLOCAZIONI_DX
+1	In	in	ADP	E	_	3	case	_	_
+2	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	modo	modo	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+4	,	[PUNCT]	PUNCT	FF	_	3	punct	_	_
+5	risulta	risultare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	più	più	ADV	B	_	7	advmod	_	_
+7	facile	facile	ADJ	A	Gender=Masc|Number=Sing	5	xcomp	_	_
+8-9	allo	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Stato	stato	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+11	tenere	tenere	VERB	V	VerbForm=Inf	5	csubj	_	_
+12	sotto	sotto	ADP	E	_	13	case	_	_
+13	controllo	controllo	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	popolo	popolo	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	_
+16	.	[PUNCT]	PUNCT	FS	_	5	punct	_	_
+
+# text = A causa di essa ne risentono , chi più e chi meno , tutte le classi sociali :
+# sent_id = 22
+# file_id = 1013
+# type = DISLOCAZIONI_DX
+1	A	a	ADP	E	_	2	case	_	_
+2	causa	causa	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	essa	essa	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nmod	_	_
+5	ne	ne	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	nsubj	_	_
+6	risentono	risentire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	,	[PUNCT]	PUNCT	FF	_	6	punct	_	_
+8	chi	chi	PRON	PR	Number=Sing|Person=3|PronType=Rel	16	obl	_	_
+9	più	più	ADV	B	_	8	advmod	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	chi	chi	PRON	PR	Number=Sing|Person=3|PronType=Rel	9	conj	_	_
+12	meno	meno	ADV	B	_	11	advmod	_	_
+13	,	[PUNCT]	PUNCT	FF	_	9	punct	_	_
+14	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	16	det:predet	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	classi	classe	NOUN	S	Gender=Fem|Number=Plur	6	dislocated	_	_
+17	sociali	sociale	ADJ	A	Gender=Masc|Number=Plur	16	amod	_	_
+18	:	[PUNCT]	PUNCT	FC	_	6	punct	_	_
+
+# text = Lo affermò anche , in un intervento , Vittorio Sgarbi :
+# sent_id = 43
+# file_id = 1048
+# type = DISLOCAZIONI_DX
+1	Lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+2	affermò	affermare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	anche	anche	ADV	B	_	2	advmod	_	_
+4	,	[PUNCT]	PUNCT	FF	_	2	punct	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	intervento	intervento	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+8	,	[PUNCT]	PUNCT	FF	_	2	punct	_	_
+9	Vittorio	Vittorio	PROPN	SP	_	2	nsubj	_	_
+10	Sgarbi	Sgarbi	PROPN	SP	_	9	flat:name	_	_
+11	:	[PUNCT]	PUNCT	FC	_	2	punct	_	_
+
+# text = Se ai veneziani del XVI sec. si presentava impossibile il raggiungimento via mare delle Indie , a noi oggi risulta altrettanto improbabile che l' uomo un giorno colonizzi un pianeta diverso dal suo .
+# sent_id = 46
+# file_id = 1049
+# type = DISLOCAZIONI_DX
+1	Se	se	SCONJ	CS	_	10	mark	_	_
+2-3	ai	_	_	_	_	_	_	_	_
+2	a	a	ADP	E	_	4	case	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	veneziani	veneziano	NOUN	S	Gender=Masc|Number=Plur	10	obl	_	_
+5-6	del	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	8	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	XVI	XVI	ADJ	NO	_	8	amod	_	_
+8	sec.	secolo	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+9	si	si	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	expl:impers	_	_
+10	presentava	presentare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+11	impossibile	impossibile	ADJ	A	Gender=Masc|Number=Sing	10	xcomp	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	raggiungimento	raggiungimento	NOUN	S	Gender=Masc|Number=Sing	10	nsubj	_	_
+14	via	via	ADV	B	_	15	advmod	_	_
+15	mare	mare	NOUN	S	Gender=Masc|Number=Sing	13	compound	_	_
+16-17	delle	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+18	Indie	Indie	PROPN	SP	_	13	nmod	_	_
+19	,	[PUNCT]	PUNCT	FF	_	10	punct	_	_
+20	a	a	ADP	E	_	21	case	_	_
+21	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	23	obl	_	_
+22	oggi	oggi	ADV	B	_	23	advmod	_	_
+23	risulta	risultare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	_
+24	altrettanto	altrettanto	ADV	B	_	25	advmod	_	_
+25	improbabile	improbabile	ADJ	A	Gender=Masc|Number=Sing	23	xcomp	_	_
+26	che	che	SCONJ	CS	_	31	mark	_	_
+27	l'	il	DET	RD	_	28	det	_	_
+28	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	31	nsubj	_	_
+29	un	un	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	31	obl	_	_
+31	colonizzi	colonizzare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	ccomp	_	_
+32	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	pianeta	pianeta	NOUN	S	Gender=Masc|Number=Sing	31	obj	_	_
+34	diverso	diverso	ADJ	A	Gender=Masc|Number=Sing	33	amod	_	_
+35-36	dal	_	_	_	_	_	_	_	_
+35	da	da	ADP	E	_	37	case	_	_
+36	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	suo	suo	PRON	PP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	34	nmod	_	_
+38	.	[PUNCT]	PUNCT	FS	_	10	punct	_	_
+
+# text = E proprio di questo si tratta , del crescere .
+# sent_id = 55
+# file_id = 106
+# type = DISLOCAZIONI_DX
+1	E	e	CCONJ	CC	_	6	cc	_	_
+2	proprio	proprio	ADV	B	_	6	advmod	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	questo	questo	PRON	PD	Gender=Masc|Number=Sing|Person=3|PronType=Dem	6	obl	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	_
+6	tratta	trarre	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	,	[PUNCT]	PUNCT	FF	_	6	punct	_	_
+8-9	del	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	crescere	crescere	NOUN	S	_	6	dislocated	_	_
+11	.	[PUNCT]	PUNCT	FS	_	6	punct	_	_
+
+# text = Stanno già lavorando altri studenti per migliorarne le caratteristiche .
+# sent_id = 136
+# file_id = 1198
+# type = DISLOCAZIONI_DX
+1	Stanno	stare	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	già	già	ADV	B	_	3	advmod	_	_
+3	lavorando	lavorare	VERB	V	VerbForm=Ger	0	root	_	_
+4	altri	altro	ADJ	A	_	5	amod	_	_
+5	studenti	studente	NOUN	S	Gender=Masc|Number=Plur	3	dislocated	_	_
+6	per	per	ADP	E	_	7	mark	_	_
+7-8	migliorarne	_	_	_	_	_	_	_	_
+7	migliorar	migliorare	VERB	V	VerbForm=Inf	3	advcl	_	_
+8	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	7	iobj	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	caratteristiche	caratteristica	NOUN	S	Gender=Fem|Number=Plur	7	obj	_	_
+11	.	[PUNCT]	PUNCT	FS	_	3	punct	_	_
+
+# text = " Ho vissuto un' infanzia tremenda , ma non mi sono mai arresa , con tutto il dolore che provavo dentro di me ci credevo ancora nella felicità .
+# sent_id = 139
+# file_id = 1208
+# type = DISLOCAZIONI_DX
+1	"	[PUNCT]	PUNCT	FB	_	3	punct	_	_
+2	Ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	vissuto	vivere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	un'	uno	DET	RI	_	5	det	_	_
+5	infanzia	infanzia	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+6	tremenda	tremendo	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	_
+7	,	[PUNCT]	PUNCT	FF	_	3	punct	_	_
+8	ma	ma	CCONJ	CC	_	13	cc	_	_
+9	non	non	ADV	BN	PronType=Neg	13	advmod	_	_
+10	mi	mi	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=1|PronType=Prs	13	expl	_	_
+11	sono	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	aux	_	_
+12	mai	mai	ADV	B	_	13	advmod	_	_
+13	arresa	arrendere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	_
+14	,	[PUNCT]	PUNCT	FF	_	13	punct	_	_
+15	con	con	ADP	E	_	18	case	_	_
+16	tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Tot	18	det:predet	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	dolore	dolore	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+19	che	che	PRON	PR	_	20	obj	_	_
+20	provavo	provare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	18	acl:relcl	_	_
+21	dentro	dentro	ADV	B	_	23	case	_	_
+22	di	di	ADP	E	_	21	fixed	_	_
+23	me	me	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	20	obl	_	_
+24	ci	ci	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=1|PronType=Prs	25	iobj	_	_
+25	credevo	credere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	13	conj	_	_
+26	ancora	ancora	ADV	B	_	25	advmod	_	_
+27-28	nella	_	_	_	_	_	_	_	_
+27	in	in	ADP	E	_	29	case	_	_
+28	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	felicità	felicità	NOUN	S	Gender=Fem|Number=Sing	25	dislocated	_	_
+30	.	[PUNCT]	PUNCT	FS	_	3	punct	_	_
+
+# text = Intanto a questo festival girano miliardi , e se i soldi sono tanti un motivo ci sarà .
+# sent_id = 149
+# file_id = 1221
+# type = DISLOCAZIONI_DX
+1	Intanto	intanto	ADV	B	_	5	advmod	_	_
+2	a	a	ADP	E	_	4	case	_	_
+3	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
+4	festival	festival	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+5	girano	girare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	miliardi	miliardo	NOUN	S	Gender=Masc|Number=Plur	5	nsubj	_	_
+7	,	[PUNCT]	PUNCT	FF	_	5	punct	_	_
+8	e	e	CCONJ	CC	_	17	cc	_	_
+9	se	se	SCONJ	CS	_	13	mark	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	soldi	soldo	NOUN	S	Gender=Masc|Number=Plur	13	nsubj	_	_
+12	sono	essere	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	cop	_	_
+13	tanti	tanto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	17	advcl	_	_
+14	un	uno	DET	RI	_	15	det	_	_
+15	motivo	motivo	NOUN	S	Gender=Masc|Number=Sing	17	nsubj	_	_
+16	ci	ci	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=1|PronType=Prs	17	expl	_	_
+17	sarà	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	5	conj	_	_
+18	.	[PUNCT]	PUNCT	FS	_	5	punct	_	_
+
+# text = Di questa tesi si fece promotore lo stesso Heisenberg , che la raccolse nel libro " La tradizione della scienza " .
+# sent_id = 156
+# file_id = 1232
+# type = DISLOCAZIONI_DX
+1	Di	di	ADP	E	_	3	case	_	_
+2	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
+3	tesi	tesi	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+5	fece	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	promotore	promotore	NOUN	S	Gender=Masc|Number=Sing	5	xcomp	_	_
+7	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	_
+9	Heisenberg	Heisenberg	PROPN	SP	_	5	nsubj	_	_
+10	,	[PUNCT]	PUNCT	FF	_	9	punct	_	_
+11	che	che	PRON	PR	_	13	nsubj	_	_
+12	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	obj	_	_
+13	raccolse	raccogliere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	acl:relcl	_	_
+14-15	nel	_	_	_	_	_	_	_	_
+14	in	in	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	libro	libro	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+17	"	[PUNCT]	PUNCT	FB	_	19	punct	_	_
+18	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	tradizione	tradizione	NOUN	S	Gender=Fem|Number=Sing	16	nmod	_	_
+20-21	della	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	scienza	scienza	NOUN	S	Gender=Fem|Number=Sing	19	nmod	_	_
+23	"	[PUNCT]	PUNCT	FB	_	19	punct	_	_
+24	.	[PUNCT]	PUNCT	FS	_	5	punct	_	_
+
+# text = Inoltre sorsero all' interno della società vari problemi , come la disoccupazione , l' inflazione , il reinserimento dei reduci nel lavoro e l' ascesa dei prezzi .
+# sent_id = 181
+# file_id = 126
+# type = DISLOCAZIONI_DX
+1	Inoltre	inoltre	ADV	B	_	2	advmod	_	_
+2	sorsero	sorgere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3-4	all'	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+5	interno	interno	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+6-7	della	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	società	società	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+9	vari	vario	ADJ	A	Gender=Masc|Number=Plur	10	amod	_	_
+10	problemi	problema	NOUN	S	Gender=Masc|Number=Plur	2	nsubj	_	_
+11	,	[PUNCT]	PUNCT	FF	_	10	punct	_	_
+12	come	come	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	disoccupazione	disoccupazione	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	_
+15	,	[PUNCT]	PUNCT	FF	_	10	punct	_	_
+16	l'	il	DET	RD	_	17	det	_	_
+17	inflazione	inflazione	NOUN	S	Gender=Fem|Number=Sing	10	conj	_	_
+18	,	[PUNCT]	PUNCT	FF	_	10	punct	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	reinserimento	reinserimento	NOUN	S	Gender=Masc|Number=Sing	10	conj	_	_
+21-22	dei	_	_	_	_	_	_	_	_
+21	di	di	ADP	E	_	23	case	_	_
+22	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
+23	reduci	reduce	ADJ	A	Gender=Masc|Number=Plur	20	nmod	_	_
+24-25	nel	_	_	_	_	_	_	_	_
+24	in	in	ADP	E	_	26	case	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	20	nmod	_	_
+27	e	e	CCONJ	CC	_	10	cc	_	_
+28	l'	il	DET	RD	_	29	det	_	_
+29	ascesa	ascesa	NOUN	S	Gender=Fem|Number=Sing	10	conj	_	_
+30-31	dei	_	_	_	_	_	_	_	_
+30	di	di	ADP	E	_	32	case	_	_
+31	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	32	det	_	_
+32	prezzi	prezzo	NOUN	S	Gender=Masc|Number=Plur	29	nmod	_	_
+33	.	[PUNCT]	PUNCT	FS	_	2	punct	_	_
+
+# text = Alcuni la ritengono infatti un' impresa paradossale quella di voler applicare la geometria alla realtà , poiché nessun essere naturale ha dimensioni strettamente e rigidamente determinate .
+# sent_id = 207
+# file_id = 1320
+# type = DISLOCAZIONI_DX
+1	Alcuni	alcuno	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	3	nsubj	_	_
+2	la	lo	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	obj	_	_
+3	ritengono	ritenere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	infatti	infatti	ADV	B	_	3	advmod	_	_
+5	un'	uno	DET	RI	_	6	det	_	_
+6	impresa	impresa	NOUN	S	Gender=Fem|Number=Sing	3	dislocated	_	_
+7	paradossale	paradossale	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	_
+8	quella	quello	PRON	PD	Gender=Fem|Number=Sing|Person=3|PronType=Dem	6	appos	_	_
+9	di	di	ADP	E	_	11	mark	_	_
+10	voler	volere	AUX	VM	VerbForm=Inf	11	aux	_	_
+11	applicare	applicare	VERB	V	VerbForm=Inf	8	acl	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	geometria	geometria	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	_
+14-15	alla	_	_	_	_	_	_	_	_
+14	a	a	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	realtà	realtà	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+17	,	[PUNCT]	PUNCT	FF	_	3	punct	_	_
+18	poiché	poiché	SCONJ	CS	_	22	mark	_	_
+19	nessun	nessuno	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	20	det	_	_
+20	essere	essere	NOUN	S	Gender=Masc|Number=Sing	22	nsubj	_	_
+21	naturale	naturale	ADJ	A	Gender=Masc|Number=Sing	20	amod	_	_
+22	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+23	dimensioni	dimensione	NOUN	S	Gender=Fem|Number=Plur	22	obj	_	_
+24	strettamente	strettamente	ADV	B	_	27	advmod	_	_
+25	e	e	CCONJ	CC	_	26	cc	_	_
+26	rigidamente	rigidamente	ADV	B	_	24	conj	_	_
+27	determinate	determinato	ADJ	A	Gender=Fem|Number=Plur	23	amod	_	_
+28	.	[PUNCT]	PUNCT	FS	_	3	punct	_	_
+
+# text = Si è esibito sul palco del Globen della capitale svedese anche Eminem , un artista rap diventato famosissimo per le accuse di violenza e per scrivere testi provocatori .
+# sent_id = 211
+# file_id = 1325
+# type = DISLOCAZIONI_DX
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+2	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	esibito	esibire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4-5	sul	_	_	_	_	_	_	_	_
+4	su	su	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	palco	palco	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+7-8	del	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Globen	Globen	PROPN	SP	_	6	nmod	_	_
+10-11	della	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	capitale	capitale	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+13	svedese	svedese	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	_
+14	anche	anche	ADV	B	_	15	advmod	_	_
+15	Eminem	Eminem	PROPN	SP	_	3	dislocated	_	_
+16	,	[PUNCT]	PUNCT	FF	_	15	punct	_	_
+17	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	artista	artista	NOUN	S	Gender=Masc|Number=Sing	15	appos	_	_
+19	rap	rap	VERB	V	_	18	amod	_	_
+20	diventato	diventare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	acl	_	_
+21	famosissimo	famoso	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	20	xcomp	_	_
+22	per	per	ADP	E	_	24	case	_	_
+23	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	24	det	_	_
+24	accuse	accusa	NOUN	S	Gender=Fem|Number=Plur	21	nmod	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	violenza	violenza	NOUN	S	Gender=Fem|Number=Sing	24	nmod	_	_
+27	e	e	CCONJ	CC	_	29	cc	_	_
+28	per	per	ADP	E	_	29	mark	_	_
+29	scrivere	scrivere	VERB	V	VerbForm=Inf	20	conj	_	_
+30	testi	testo	NOUN	S	Gender=Masc|Number=Plur	29	obj	_	_
+31	provocatori	provocatorio	ADJ	A	Gender=Masc|Number=Plur	30	amod	_	_
+32	.	[PUNCT]	PUNCT	FS	_	3	punct	_	_
+
+# text = Infiniti sono i luoghi dell' anima , gli scenari percorribili dalla nostra immaginazione , un' infinità tale che al Leopardi " sovvien l' eterno " .
+# sent_id = 212
+# file_id = 1327
+# type = DISLOCAZIONI_DX
+1	Infiniti	Infiniti	ADJ	A	_	0	root	_	_
+2	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	luoghi	luogo	NOUN	S	Gender=Masc|Number=Plur	1	nsubj	_	_
+5-6	dell'	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+7	anima	anima	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+8	,	[PUNCT]	PUNCT	FF	_	4	punct	_	_
+9	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	scenari	scenario	NOUN	S	Gender=Masc|Number=Plur	4	conj	_	_
+11	percorribili	percorribile	ADJ	A	Gender=Masc|Number=Plur	10	amod	_	_
+12-13	dalla	_	_	_	_	_	_	_	_
+12	da	da	ADP	E	_	15	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+14	nostra	nostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	15	det:poss	_	_
+15	immaginazione	immaginazione	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	_
+16	,	[PUNCT]	PUNCT	FF	_	4	punct	_	_
+17	un'	uno	DET	RI	_	18	det	_	_
+18	infinità	infinità	NOUN	S	Gender=Fem|Number=Sing	4	conj	_	_
+19	tale	tale	ADJ	A	Gender=Masc|Number=Sing	18	amod	_	_
+20	che	che	SCONJ	CS	_	25	mark	_	_
+21-22	al	_	_	_	_	_	_	_	_
+21	a	a	ADP	E	_	23	case	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	Leopardi	Leopardi	PROPN	SP	_	25	obl	_	_
+24	"	[PUNCT]	PUNCT	FB	_	25	punct	_	_
+25	sovvien	sovvenire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	advcl	_	_
+26	l'	l'	DET	RD	_	27	det	_	_
+27	eterno	eterno	NOUN	S	Gender=Masc|Number=Sing	25	obj	_	_
+28	"	[PUNCT]	PUNCT	FB	_	25	punct	_	_
+29	.	[PUNCT]	PUNCT	FS	_	1	punct	_	_
+
+# text = Sempre più numerose saranno le ricerche e le scoperte nello spazio , che forse , un giorno ci daranno la possibilità di abitare un altro pianeta oltre al nostro
+# sent_id = 240
+# file_id = 139
+# type = DISLOCAZIONI_DX
+1	Sempre	sempre	ADV	B	_	3	advmod	_	_
+2	più	più	ADV	B	_	1	fixed	_	_
+3	numerose	numeroso	ADJ	A	Gender=Fem|Number=Plur	0	root	_	_
+4	saranno	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	3	cop	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	ricerche	ricerca	NOUN	S	Gender=Fem|Number=Plur	3	nsubj	_	_
+7	e	e	CCONJ	CC	_	9	cc	_	_
+8	le	il	DET	RD	Gender=Fem|Number=Plur	9	det	_	_
+9	scoperte	scoperta	NOUN	S	Gender=Fem|Number=Plur	6	conj	_	_
+10-11	nello	_	_	_	_	_	_	_	_
+10	in	in	ADP	E	_	12	case	_	_
+11	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	spazio	spazio	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+13	,	[PUNCT]	PUNCT	FF	_	20	punct	_	_
+14	che	che	PRON	PR	_	20	nsubj	_	_
+15	forse	forse	ADV	B	_	20	advmod	_	_
+16	,	[PUNCT]	PUNCT	FF	_	15	punct	_	_
+17	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	20	nmod	_	_
+19	ci	ci	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=1|PronType=Prs	20	iobj	_	_
+20	daranno	dare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	6	acl:relcl	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	possibilità	possibilità	NOUN	S	Gender=Fem|Number=Sing	20	obj	_	_
+23	di	di	ADP	E	_	24	mark	_	_
+24	abitare	abitare	VERB	V	VerbForm=Inf	22	acl	_	_
+25	un	uno	DET	RI	_	27	det	_	_
+26	altro	altro	ADJ	A	_	27	amod	_	_
+27	pianeta	pianeta	NOUN	S	Gender=Masc|Number=Sing	24	obj	_	_
+28	oltre	oltre	ADP	E	_	31	case	_	_
+29-30	al	_	_	_	_	_	_	_	_
+29	a	a	ADP	E	_	28	fixed	_	_
+30	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	24	obl	_	_
+

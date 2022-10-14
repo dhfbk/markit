@@ -1,0 +1,165 @@
+# text = Al di là di questo , ciò che è fuori da ogni dubbio è l' immensa responsabilità che la scienza ha e che è , per una gran parte , in mano agli scienziati .
+# sent_id = 169
+# file_id = 1241
+# type = PSEUDOSCISSE
+1-2	Al	_	_	_	_	_	_	_	_
+1	a	a	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	di	di	ADP	E	_	18	obl	_	_
+4	là	là	ADV	B	_	3	fixed	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	questo	questo	PRON	PD	Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	nmod	_	_
+7	,	[PUNCT]	PUNCT	FF	_	8	punct	_	_
+8	ciò	ciò	PRON	PD	Gender=Masc|Number=Sing|Person=3|PronType=Dem	18	nsubj	_	_
+9	che	che	PRON	PR	_	10	nsubj	_	_
+10	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+11	fuori	fuori	ADV	B	_	14	case	_	_
+12	da	da	ADP	E	_	11	fixed	_	_
+13	ogni	ogni	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	14	det	_	_
+14	dubbio	dubbio	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+15	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+16	l'	il	DET	RD	_	18	det	_	_
+17	immensa	immenso	ADJ	A	Gender=Fem|Number=Sing	18	amod	_	_
+18	responsabilità	responsabilità	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+19	che	che	PRON	PR	_	22	obj	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	scienza	scienza	NOUN	S	Gender=Fem|Number=Sing	22	nsubj	_	_
+22	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	acl:relcl	_	_
+23	e	e	CCONJ	CC	_	25	cc	_	_
+24	che	che	PRON	PR	_	25	nsubj	_	_
+25	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	conj	_	_
+26	,	[PUNCT]	PUNCT	FF	_	25	punct	_	_
+27	per	per	ADP	E	_	30	case	_	_
+28	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+29	gran	gran	ADJ	A	Gender=Masc|Number=Sing	30	amod	_	_
+30	parte	parte	NOUN	S	Gender=Fem|Number=Sing	25	obl	_	_
+31	,	[PUNCT]	PUNCT	FF	_	30	punct	_	_
+32	in	in	ADP	E	_	33	case	_	_
+33	mano	mano	NOUN	S	Gender=Fem|Number=Sing	25	obl	_	_
+34-35	agli	_	_	_	_	_	_	_	_
+34	a	a	ADP	E	_	36	case	_	_
+35	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	36	det	_	_
+36	scienziati	scienziato	NOUN	S	Gender=Masc|Number=Plur	33	nmod	_	_
+37	.	[PUNCT]	PUNCT	FS	_	18	punct	_	_
+
+# text = Ciò che sicuramente accomuna le due posizioni è la necessità di riuscire a stabilire il limite che separa l' utilità dal danno , cosa che risulta ed è risultata in passato difficile , quando la scienza è stata coinvolta in interessi di ordine politico ed economico .
+# sent_id = 170
+# file_id = 1241
+# type = PSEUDOSCISSE
+1	Ciò	ciò	PRON	PD	Gender=Masc|Number=Sing|Person=3|PronType=Dem	10	nsubj	_	_
+2	che	che	PRON	PR	_	4	nsubj	_	_
+3	sicuramente	sicuramente	ADV	B	_	4	advmod	_	_
+4	accomuna	accomunare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+6	due	due	NUM	N	NumType=Card	7	nummod	_	_
+7	posizioni	posizione	NOUN	S	Gender=Fem|Number=Plur	4	obj	_	_
+8	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	necessità	necessità	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+11	di	di	ADP	E	_	12	mark	_	_
+12	riuscire	riuscire	VERB	V	VerbForm=Inf	10	acl	_	_
+13	a	a	ADP	E	_	14	mark	_	_
+14	stabilire	stabilire	VERB	V	VerbForm=Inf	12	xcomp	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	limite	limite	NOUN	S	Gender=Masc|Number=Sing	14	obj	_	_
+17	che	che	PRON	PR	_	18	nsubj	_	_
+18	separa	separare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	acl:relcl	_	_
+19	l'	il	DET	RD	_	20	det	_	_
+20	utilità	utilità	NOUN	S	Gender=Fem|Number=Plur	18	obj	_	_
+21-22	dal	_	_	_	_	_	_	_	_
+21	da	da	ADP	E	_	23	case	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	danno	danno	NOUN	S	Gender=Masc|Number=Sing	18	obl	_	_
+24	,	[PUNCT]	PUNCT	FF	_	23	punct	_	_
+25	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	14	appos	_	_
+26	che	che	PRON	PR	_	27	nsubj	_	_
+27	risulta	risultare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	acl:relcl	_	_
+28	ed	ed	CCONJ	CC	_	30	cc	_	_
+29	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	cop	_	_
+30	risultata	risultato	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	27	conj	_	_
+31	in	in	ADP	E	_	32	case	_	_
+32	passato	passato	NOUN	S	Gender=Masc|Number=Sing	30	obl	_	_
+33	difficile	difficile	ADJ	A	Gender=Masc|Number=Sing	30	xcomp	_	_
+34	,	[PUNCT]	PUNCT	FF	_	30	punct	_	_
+35	quando	quando	SCONJ	CS	_	40	mark	_	_
+36	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+37	scienza	scienza	NOUN	S	Gender=Fem|Number=Sing	40	nsubj:pass	_	_
+38	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	40	aux	_	_
+39	stata	stare	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	40	aux:pass	_	_
+40	coinvolta	coinvolgere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	30	advcl	_	_
+41	in	in	ADP	E	_	42	case	_	_
+42	interessi	interesse	NOUN	S	Gender=Masc|Number=Plur	40	obl	_	_
+43	di	di	ADP	E	_	44	case	_	_
+44	ordine	ordine	NOUN	S	Gender=Masc|Number=Sing	42	nmod	_	_
+45	politico	politico	ADJ	A	Gender=Masc|Number=Sing	44	amod	_	_
+46	ed	ed	CCONJ	CC	_	47	cc	_	_
+47	economico	economico	ADJ	A	Gender=Masc|Number=Sing	45	conj	_	_
+48	.	[PUNCT]	PUNCT	FS	_	10	punct	_	_
+
+# text = Ciò che distingue gli ultimi due episodi rispetto ai primi è il silenzio .
+# sent_id = 194
+# file_id = 1287
+# type = PSEUDOSCISSE
+1	Ciò	ciò	PRON	PD	Gender=Masc|Number=Sing|Person=3|PronType=Dem	14	nsubj	_	_
+2	che	che	PRON	PR	_	3	nsubj	_	_
+3	distingue	distinguere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
+4	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+5	ultimi	ultimo	ADJ	NO	Gender=Masc|Number=Plur|NumType=Ord	7	amod	_	_
+6	due	due	NUM	N	NumType=Card	7	nummod	_	_
+7	episodi	episodio	NOUN	S	Gender=Masc|Number=Plur	3	obj	_	_
+8	rispetto	rispetto	ADP	E	_	11	case	_	_
+9-10	ai	_	_	_	_	_	_	_	_
+9	a	a	ADP	E	_	8	fixed	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	primi	primo	ADJ	NO	Gender=Masc|Number=Plur|NumType=Ord	3	obl	_	_
+12	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	silenzio	silenzio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+15	.	[PUNCT]	PUNCT	FS	_	14	punct	_	_
+
+# text = Tutto ciò che ci circonda è un' armonia in continua evoluzione che nel suo insieme costituisce una bellezza quasi inconcepibile ( considerata più storica che scientifica o estetica ) che solo in pochi sono in grado di notare .
+# sent_id = 396
+# file_id = 1794
+# type = PSEUDOSCISSE
+1	Tutto	tutto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	2	det	_	_
+2	ciò	ciò	PRON	PD	Gender=Masc|Number=Sing|Person=3|PronType=Dem	8	nsubj	_	_
+3	che	che	PRON	PR	_	5	nsubj	_	_
+4	ci	ci	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=1|PronType=Prs	5	obj	_	_
+5	circonda	circondare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+6	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	un'	uno	DET	RI	_	8	det	_	_
+8	armonia	armonia	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+9	in	in	ADP	E	_	11	case	_	_
+10	continua	continuo	ADJ	A	Gender=Fem|Number=Sing	11	amod	_	_
+11	evoluzione	evoluzione	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+12	che	che	PRON	PR	_	17	nsubj	_	_
+13-14	nel	_	_	_	_	_	_	_	_
+13	in	in	ADP	E	_	16	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+15	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	16	det:poss	_	_
+16	insieme	insieme	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	_
+17	costituisce	costituire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+18	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	bellezza	bellezza	NOUN	S	Gender=Fem|Number=Sing	17	obj	_	_
+20	quasi	quasi	ADV	B	_	21	advmod	_	_
+21	inconcepibile	inconcepibile	ADJ	A	Gender=Masc|Number=Sing	19	amod	_	_
+22	(	(	PUNCT	FB	_	23	punct	_	_
+23	considerata	considerare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	19	acl	_	_
+24	più	più	ADV	B	_	25	advmod	_	_
+25	storica	storico	ADJ	A	Gender=Fem|Number=Sing	23	xcomp	_	_
+26	che	che	CCONJ	CC	_	27	cc	_	_
+27	scientifica	scientifico	ADJ	A	Gender=Fem|Number=Sing	25	conj	_	_
+28	o	o	CCONJ	CC	_	29	cc	_	_
+29	estetica	estetico	ADJ	A	Gender=Fem|Number=Sing	27	conj	_	_
+30	)	)	PUNCT	FB	_	23	punct	_	_
+31	che	che	PRON	PR	_	37	nsubj	_	_
+32	solo	solo	ADV	B	_	34	advmod	_	_
+33	in	in	ADP	E	_	34	case	_	_
+34	pochi	pochi	PRON	PI	Gender=Masc|Number=Plur|Person=3|PronType=Ind	37	obl	_	_
+35	sono	essere	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	37	cop	_	_
+36	in	in	ADP	E	_	37	case	_	_
+37	grado	grado	NOUN	S	Gender=Masc|Number=Sing	19	acl:relcl	_	_
+38	di	di	ADP	E	_	39	mark	_	_
+39	notare	notare	VERB	V	VerbForm=Inf	37	acl	_	_
+40	.	.	PUNCT	FS	_	8	punct	_	_
+
